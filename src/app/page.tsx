@@ -16,13 +16,11 @@ import {
   Menu, 
   X,
   Search,
-  KeyRound,
   Building,
   Ticket,
   CheckCircle2
 } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { HoverCard, HoverCardContent, HoverCardTrigger } from "@/components/ui/hover-card";
 
 export default function Home() {
   return (
@@ -251,7 +249,7 @@ export default function Home() {
                     </div>
                     
                     <p className="text-sm text-center text-muted-foreground mb-6">
-                      By providing your LUMA credentials to Curait, you're enabling our AI to register for events on your behalf.
+                      By providing your LUMA credentials to Curait, you&apos;re enabling our AI to register for events on your behalf.
                     </p>
                     
                     <div className="space-y-4">
@@ -362,7 +360,7 @@ export default function Home() {
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <p>Our agent infers appropriate responses based on your past preferences and context, ensuring you never miss an opportunity.</p>
+                  <p>The agent infers appropriate responses based on your past preferences and context, ensuring you never miss an opportunity.</p>
                 </CardContent>
               </Card>
               
@@ -426,7 +424,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-bold mb-2">Initial Setup</h3>
                 <p className="text-muted-foreground">
-                  Provide your basic information that's commonly required for event registrations (name, email, job title, etc.)
+                  Provide your basic information that&apos;s commonly required for event registrations (name, email, job title, etc.)
                 </p>
               </div>
               
@@ -437,7 +435,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-bold mb-2">Select Your Preferences</h3>
                 <p className="text-muted-foreground">
-                  Choose the types of events you're interested in and your availability preferences
+                  Choose the types of events you&apos;re interested in and your availability preferences
                 </p>
               </div>
               
@@ -496,7 +494,7 @@ export default function Home() {
                 <span className="text-2xl font-bold">CurAIt</span>
               </div>
               <p className="text-muted-foreground max-w-[300px]">
-                Your personal AI agent for navigating San Francisco's event scene with ease.
+                Your personal AI agent for navigating San Francisco&apos;s event scene with ease.
               </p>
             </div>
             
