@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Separator } from "@/components/ui/separator";
+import { Analytics } from "@vercel/analytics/react";
 import { 
   Calendar, 
   CheckCircle, 
@@ -21,6 +22,7 @@ import {
   CheckCircle2
 } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 export default function Home() {
   return (
@@ -46,6 +48,9 @@ export default function Home() {
                 <Button className="mt-4" asChild>
                   <Link href="https://airtable.com/appDUcI2gOf3clh3q/shrOUL2KJuAk8bKVK" target="_blank" rel="noopener noreferrer">Join Waitlist</Link>
                 </Button>
+                <div className="mt-2 flex justify-center">
+                  <ThemeToggle />
+                </div>
               </div>
             </SheetContent>
           </Sheet>
@@ -57,6 +62,7 @@ export default function Home() {
             <Button asChild>
               <Link href="https://airtable.com/appDUcI2gOf3clh3q/shrOUL2KJuAk8bKVK" target="_blank" rel="noopener noreferrer">Join Waitlist</Link>
             </Button>
+            <ThemeToggle />
           </nav>
         </div>
       </header>
@@ -110,7 +116,7 @@ export default function Home() {
                     />
                   </div>
                   <div className="flex items-center justify-center bg-black p-2 sm:p-3 rounded-lg">
-                    <Image 
+          <Image
                       src="/partiful.png" 
                       alt="Partiful" 
                       width={140} 
@@ -119,7 +125,7 @@ export default function Home() {
                     />
                   </div>
                   <div className="flex items-center justify-center p-2">
-                    <Image 
+          <Image
                       src="/eventbrite.png" 
                       alt="Eventbrite" 
                       width={140} 
@@ -128,7 +134,7 @@ export default function Home() {
                     />
                   </div>
                   <div className="flex items-center justify-center bg-black p-2 sm:p-3 rounded-lg">
-                    <Image 
+          <Image
                       src="/cb.png" 
                       alt="Cerebral Valley" 
                       width={140} 
@@ -412,7 +418,7 @@ export default function Home() {
             <div className="flex flex-col items-center text-center gap-4 mb-12">
               <h2 className="text-3xl md:text-4xl font-bold tracking-tighter">How It Works</h2>
               <p className="text-muted-foreground max-w-[700px]">
-                Setting up CurAIt is simple and takes just minutes to start managing your events
+                Setting up Curait is simple and takes just minutes to start managing your events
               </p>
             </div>
             
@@ -491,7 +497,7 @@ export default function Home() {
             <div className="space-y-4">
               <div className="flex items-center gap-2">
                 <BrainCircuit className="h-8 w-8 text-primary" />
-                <span className="text-2xl font-bold">CurAIt</span>
+                <span className="text-2xl font-bold">Curait</span>
               </div>
               <p className="text-muted-foreground max-w-[300px]">
                 Your personal AI agent for navigating San Francisco&apos;s event scene with ease.
@@ -547,6 +553,7 @@ export default function Home() {
           </div>
         </div>
       </footer>
+      <Analytics />
     </div>
   );
 }
