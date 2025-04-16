@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CurAIt - San Francisco Events AI Agent",
-  description: "Your AI assistant for SF events management - seamlessly sign up for events across Luma, Partiful, Eventbrite, and more!",
+  title: "Curait - San Francisco Events AI Agent",
+  description: "Your AI agent for SF events management - seamlessly sign up for events across Luma, Partiful, Eventbrite, and more!",
 };
 
 export default function RootLayout({
