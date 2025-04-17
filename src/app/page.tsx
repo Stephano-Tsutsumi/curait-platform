@@ -200,7 +200,7 @@ export default function Home() {
                     <div className="grid grid-cols-2 gap-3 mt-4">
                       {/* Platform buttons */}
                       <div className="border rounded-md p-3 flex flex-col items-center justify-center gap-2 hover:bg-muted/50 transition-colors cursor-pointer">
-                        <div className="font-medium text-sm">LUMA</div>
+                        <div className="font-medium text-sm">Luma</div>
                       </div>
                       <div className="border rounded-md p-3 flex flex-col items-center justify-center gap-2 hover:bg-muted/50 transition-colors cursor-pointer">
                         <div className="font-medium text-sm">Partiful</div>
@@ -251,7 +251,7 @@ export default function Home() {
                       <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-4">
                         <Building className="h-8 w-8 text-primary" />
                       </div>
-                      <h3 className="text-xl font-bold">Enter your credentials</h3>
+                      <h3 className="text-xl font-bold text-center">Enter your credentials</h3>
                     </div>
                     
                     <p className="text-sm text-center text-muted-foreground mb-6">
