@@ -84,7 +84,7 @@ export default function Home() {
               </div>
               
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter max-w-3xl">
-                Never Miss an Event in <span className="text-primary">San Francisco</span> Again
+                Never Miss an Event in <span className="text-primary">Your Area</span> Again
               </h1>
               
               <p className="max-w-[700px] text-lg md:text-xl text-muted-foreground">
